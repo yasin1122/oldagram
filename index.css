@@ -1,0 +1,60 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+header, section {
+    width: 375px;
+    margin: 0 auto;
+}
+
+.divider {
+    background-color: #C6C6C6;
+    margin: 0 auto;
+    width: 375px;
+    height: 20px;
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.logo-img {
+    width: 127px;
+    height: 67px;
+    padding: 10px;
+}
+
+.avatar {
+    width: 34px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.name {
+    display: block;
+}
+
+.icon {
+    margin-top: 10px;
+    width: 35px;
+    padding-right: 10px;
+}
+
+.post-img {
+    width: 375px;
+}
